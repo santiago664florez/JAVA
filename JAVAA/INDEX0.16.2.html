@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+</head>
+<body>
+    <script>
+        function calcularTabla() {
+            let valor = parseInt(prompt("Ingrese que tabla de multiplicar quiere obtener"))
+            for (let f = 1; f <= 10; f++) {
+                let tabla = f * valor;
+                document.write(f + " * " + valor + " = " + tabla + '<br>')
+
+            }
+        }
+
+        calcularTabla();
+    </script>
+</body>
+</html>
